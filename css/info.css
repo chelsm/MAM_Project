@@ -1,0 +1,992 @@
+/* ACCUEIL----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.num1 .background-image-text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    /* font-size: 10vh; */
+    /* text-align: center; */
+	/* font-size: 3vw; */
+	text-transform: uppercase ; 
+	font-weight : bold ; 
+	letter-spacing : 5px ; 
+	/* color : #FFDA8C ;  */
+	color : white ; 
+	text-align : center ; 
+}
+.num2 .background-image-text-overlay {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    /* font-size: 10vh; */
+    /* text-align: center; */
+	/* font-size: 3vw; */
+	/* text-transform: uppercase ;  */
+	font-weight : bold ; 
+	/* letter-spacing : 5px ;  */
+	/* color : #FFDA8C ;  */
+	color : white ; 
+	text-align : center ; 
+}
+
+/* .background-image-text-overlay h1{ */
+	/* font-size: vw; */
+/* } */
+
+@media screen and ( min-width: 00px ) { /* desktop */
+    .content {
+        margin: 100vh 0 0 0;
+		width: 100%;
+    }
+}
+.num1{
+	background :url(../images/musée1.jpg) repeat fixed 70%; 
+	background-size : cover; 
+}
+.num2{
+	background-image :url(../images/IMG_8024.jpg)  ; 
+	background-size : cover; 
+}
+.background-image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.background-info{
+	height : 500px  ; 
+	width : 100% ; 
+	
+}
+.background-info-text-overlay{
+	top : 25% ; 
+	
+}
+
+.background-image-element { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX( -50% ) translateY( -50% );
+    -moz-transform: translateX( -50% ) translateY( -50% );
+    -webkit-transform: translateX( -50% ) translateY( -50% );
+    transform: translateX( -50% )  translateY( -50% );
+}
+
+@media screen and ( min-width: 100px ) { /* desktop */
+    .background-image-overlay {
+    height: 100%;
+	width: 100%;
+	position: absolute;
+    }
+}
+/* NAVBAR----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.mam img, 
+.avec   {
+	height : 40px ; 
+	padding-left : 10px ;
+	filter: invert(100%); 
+}
+.navbar{
+	background: rgba(0,0,0,0.5)!important ; 
+	width : 75% ;
+	margin : 0 auto ; 
+	padding	: 20px ; 
+	position : absolute ; 
+	margin-top : 30px ; 
+	margin-left : 13% ; 
+	justify-content :center ; 
+	z-index : 1; 
+	
+}
+.dropdown-menu{
+	background: rgba(0,0,0,0.5)!important ; 
+	justify-content :center ; 
+	
+}
+.dropdown-item{
+	color : white ; 
+	text-align :center ; 
+	font-size : 19px!important ; 
+	
+	
+
+}
+.dropdown-item:hover{
+	background-color : transparent ; 
+	font-weight : bold ;
+	
+}	
+
+.nav-link:hover{
+	color : #FFDA8C!important ; 
+	text-align :center ; 
+}
+.dropdown-item:hover{
+	color : #FFDA8C!important ; 
+	text-align :center ; 
+}
+.navbar-nav{
+	margin: 0 auto!important; 
+	/* margin: 0 0 0.2em 0!important;  */
+	
+	
+}
+
+.nav-link {
+	color : white!important ;		
+	font-size: 1.6vw;
+	padding : 20px ; 
+	text-align : center ; 
+	/* margin-right : 10px ;  */
+	
+}
+
+.mam .avec{
+	display: none ; 
+}
+@media screen and ( max-width: 991px ) { /* desktop */
+	.mam .sans{
+		display : none; 
+	}
+	
+	.mam .avec  {
+		display : block ;
+		height : 6vw; 
+	}
+
+	.nav-link {
+		font-size: 20px;
+		
+	}
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+/* BACKGROUND----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.background-info{
+	background : url(../images/musee/jeremy-thomas-rMmibFe4czY-unsplash.jpg) repeat fixed 70%; 
+	height  : 500px  ; 
+	background-size: cover; 
+}
+.background-salles{
+	background : url(../images/musee/tableau.jpg) repeat fixed 70%; 
+	height  : 500px  ; 
+	background-size: cover; 
+}
+.background-expo{
+	background : url(../images/musee/eric-park-QbX8A8eHfzw-unsplash.jpg) repeat fixed 70%; 
+	height  : 500px  ; 
+	background-size: cover; 
+}
+.background-galerie{
+	background : url(../images/musee/Galerie1.jpg) repeat fixed 70%; 
+	height  : 500px  ; 
+	background-size: cover; 
+	 /* filter: grayscale(100%); */
+}
+.background-activite{
+	background : url(../images/musee/russn_fckr-krV5aS4jDjA-unsplash.jpg) repeat fixed 70%; 
+	height  : 500px  ; 
+	background-size: cover; 
+}
+.background-histoire{
+	background : url(../images/musee/leonard-cotte-R5scocnOOdM-unsplash.jpg) repeat fixed 70%; 
+	height  : 500px  ; 
+	background-size: cover; 
+	/* filter: grayscale(100%);  */
+}
+
+.background-info-texte{
+	color : white ; 
+	font-size: 7vw;
+	/* top : 35% ;  */
+	text-align : center ; 
+	padding-top: 150px ; 
+	text-shadow: -5px 0 black; 
+
+}
+.background-galerie-texte{
+	color : white ; 
+	font-size: 7vw;
+	/* top : 35% ;  */
+	text-align : center ; 
+	padding-top: 150px ; 
+	/* text-shadow: -5px 0 black;  */
+
+}
+
+/* INFORMATION----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.content-info  {
+	display : flex ;
+	width : 100% ; 
+	/* background : yellow ;  */
+	/* padding : 50px ;  */
+	box-sizing : border-box ; 
+	flex-direction : row ; 
+	 
+	
+}
+
+.boxL {
+	flex : 2 ; 
+	/* background-color : red ;  */
+	/* padding : 30px ;  */
+	font-size : 12px ; 
+}
+.boxM  {
+	/* top : 50% ;  */
+	flex : 1.5 ; 
+	background-color : #222224 ; /* noir */
+	padding : 30px ; 
+	color : white ; 
+	font-size : 13px ; 
+	text-align : center ; 
+}
+.content-boxM p,
+.content-boxM h3{
+	/* padding-top: 50%;  */
+	/* text-align : center ;  */
+}
+.content-boxM h3{
+	font-size  : 20px ; 
+}
+.content-boxM .droit{
+	/* text-align : none ;  */
+	
+}
+.boxR {
+	
+	flex : 1.5; 
+	background-color : white ; 
+	padding : 30px ; 
+	font-size : 12px ; 
+	
+}
+
+.info-map{
+  filter: grayscale(100%);
+	
+}
+@media screen and (max-width : 1255px ){
+	.info-map{
+		height : 800px ; 
+	}
+	
+}
+
+
+.wrapper {
+	position : relative ; 
+	height : 500px ; 
+	font-weight : bold ; 
+	width : 100% ; 
+	/* padding : 80px ;    */
+	text-align : center; 
+	padding-top : 20px ; 
+	padding-bottom  : 20px ; 
+	color : #222224 ; 
+	/* display  :grid ;  */
+	justify-content: space-around;
+	/* text-transform : uppercase ;  */
+	/* font-weight : bold ;  */
+
+}
+.contact-form{
+	/* display: flex; */
+	/* max-width: 530px; */
+	/* margin: 5px auto; */
+	/* border-radius: 5px; */
+}
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	/* margin-right: 4%; */
+}
+.input-fields,
+.msg{
+	width: 100%; /* longueur des barres */
+}
+.msg{
+	/* margin : 10px ;  */
+}
+.input-fields .input,
+.msg textarea{
+	margin: 10px 0; 
+	background: transparent;
+	border: none ;
+	border-bottom: 2px solid #222224;
+	padding: 10px;
+	color: black ; 
+	font-weight : bold ; 
+	width: 100%;
+}
+.msg textarea{
+	height: 300px;
+	resize: none; 
+}
+
+
+/* BOUTTONS----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.msg .btn {
+    background: #222224;
+    text-align: center;
+    padding: 15px;
+    border-radius: 2px;
+    color: white;
+	font-weight : bold ; 
+    cursor: pointer;
+    text-transform: uppercase;
+	border : 1px solid transparent!important  ; 
+	border : 5px solid transparent!important ; 
+}
+.msg .btn:hover {
+	background-color : white!important ; 
+	color : #252727!important ; 
+	border : 5px solid #222224!important ; 
+}
+
+.background-image-text-overlay .btn {
+	color : white; 
+	padding : 10px ; 
+	background-color  : black ; 
+	border : 3px solid black ; 
+	margin-top : 65px ; 
+	font-weight : bold ; 
+	text-decoration : none ; 
+}
+
+.background-image-text-overlay .btn:hover {
+	background-color  : black ; 
+	/* margin-top : 30px ; */
+	color : #FFDA8C ;  /* jaune */	
+}
+
+.background-image-text-overlay a {
+	color: #fff;
+}
+.background-image-text-overlay a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color  : black ; 
+	margin-top : 30px ;
+	color : #FFDA8C ;  /* jaune */	
+}
+/* FOOTER----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.footer{
+	color : white;
+	text-align : center ; 
+	font-size  :12px ; 
+}
+.content-footer {
+	display : flex ;
+	width : 100% ; 
+	box-sizing : border-box ; 
+	flex-direction : row ; 
+}
+.footer-section {
+	padding : 20px ; 
+}
+.footer .footer-bottom {
+	background-color : #191919; 
+	color : white;
+	/* height : 30px ;  */
+	width : 100%; 
+	text-align : center ; 
+	bottom : 0px ; 
+	left : 0px ; 
+	/* padding-top : 5px ;  */
+	
+}
+.about {
+	flex : 3 ; 
+	background-color : #222224;
+	padding-top: 100px;
+}
+.links {
+	flex : 3 ; 
+	background-color : #222224;
+	
+}
+
+.links a{
+	color : white ; 
+	display: flex;
+	flex-direction : column ; 
+	text-decoration : none ; 
+	padding : 10px; 
+}
+
+.links a:hover{
+	
+	/* font-size  :20px ;  */
+	color : #FFDA8C ;  /* jaune */
+	display: flex;
+	flex-direction : column ; 
+}
+/* .hours { */
+	/* flex : 3 ;  */
+	/* background-color :  #222224;  */
+/* } */
+ .links i{
+	color :#FFDA8C ;
+	font-size : 20px ; 
+	margin : 10px ; 
+
+}
+.about i {
+	color : white ; 
+	font-size : 20px ; 
+	margin : 10px ; 
+}
+.about i:hover{
+	color :#FFDA8C ;
+	font-size : 20px ; 
+	margin : 10px ; 
+
+}
+
+@media screen and (max-width : 900px ){
+
+
+	.content-info{
+		flex-direction : column ; 
+	}
+	.content-boxM {
+		padding-top: 0%; 
+	}
+
+	.msg textarea{
+		height: 150px;
+		/* resize: none */
+	}
+	.about {
+	padding-top: 0px;
+	}
+	.links {
+	padding-top: 10px;
+	}
+	.content-footer{
+		flex-direction : column-reverse ; 
+		
+	}
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+.gallery-section{
+  width: 100%;
+  padding: 60px 0;
+}
+.inner-width{
+  /* width: 100%; */
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.gallery-section h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.border{
+  width: 250px;
+  height: 4px;
+  background: #333;
+  margin: 30px auto;
+}
+
+.gallery-section .gallery{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+
+.gallery-section .image-gal{
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery-section .image{
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.gallery-section .image-gal img{
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+.gallery-section .image img{
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.gallery-section .image-gal:hover img{
+  transform: scale(1.4) rotate(9deg);
+}
+
+@media screen and (max-width:960px) {
+  .gallery-section .image-gal{
+    flex: 33.33%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .gallery-section .image-gal{
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .gallery-section .image-gal{
+    flex: 100%;
+  }
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.expo1-img-1{
+	background-image : url(../images/musee/IMG_8175.jpg) ; 
+	height : 700px ; 
+	background-size: cover; 
+}
+
+.expo1-img-2{
+	background-image : url(../images/musee/you.jpg) ; 
+	height : 700px ; 
+	background-size: cover; 
+}
+
+.expo1-img-3{
+	background-image : url(../images/musee/FeedMe.jpg) ; 
+	height : 700px ; 
+	background-size: cover; 
+}
+.expo2-img-1{
+	background-image : url(../images/musee/IMG_7974.jpg) ; 
+	height : 700px ; 
+	background-size: cover; 
+}
+
+.expo2-img-2{
+	background-image : url(../images/musee/Hans.jpg) ; 
+	height : 700px ; 
+	background-size: cover; 
+}
+
+.expo2-img-3{
+	background-image : url(../images/musee/homme.png) ; 
+	height : 700px ; 
+	background-size: cover; 
+}
+.titre-expo{
+	font-size : 20px ; 
+	/* padding-left : 30px ;  */
+	display : flex ; 
+}
+
+.sous-titre-expo p{
+	font-size : 18px ; 
+	padding-left : 30px ; 
+}
+.sous-titre-expo h5{
+	font-size : 15px ; 
+	padding-left : 30px ; 
+
+}
+.titre-gras{
+	display: column!important;
+	width : auto ; 
+	padding : 5px ; 
+	font-weight : bold ; 
+	font-size : 25px ; 
+	background-color : #222224 ;
+	color : white ; 
+}
+.titre-gras-salles{
+	display: column!important;
+	width : auto ; 
+	padding : 5px ; 
+	font-weight : bold ; 
+	font-size : 20px ; 
+	background-color : #222224 ;
+	color : white ; 
+	width : 100px ; 
+	margin-left : 20px; 
+}
+.titre-gras-gris{
+	width : auto ; 
+	padding : 5px ; 
+	font-weight : bold ; 
+	font-size : 15px ;
+	/* background-color :  #DCDCDC ;  */
+	color :  #222224 ; 
+}
+
+.salle1-img2{
+	/* height : 900px ; */
+	/* width  : 300px ;  */
+	
+}
+
+.btnL{
+	float : left ; 
+}
+.btnR{
+	float : right ; 
+}
+
+
+.activite-image{
+	justify-content : center ;
+	
+}
+/* SALLES----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.img-artisteL{
+	flex : 1 ; 
+	/* background-color : yellow ;  */
+}
+
+
+.bio-artisteR{
+	flex : 2 ; 
+	/* background-color : red ;  */
+}
+
+.oeuvre-artisteL{
+	flex: 0.5; 
+	/* margin : 20px ;  */
+	/* background-color : red ;  */
+}
+.oeuvre-artisteM{
+	flex: 3;
+margin-left : 20px ; 	
+}
+.oeuvre-artisteR{
+	margin-left : 20px ; 
+	flex: 3; 
+}
+.content-salles  {
+	display : flex ;
+	width : 100% ; 
+	/* background : yellow ;  */
+	/* padding : 50px ;  */
+	box-sizing : border-box ; 
+	flex-direction : row ; 
+	 
+	
+}
+.gallery img{
+	max-width: 100%;
+	height: auto;
+
+}
+.gallery {
+	max-width: 100%;
+	height: auto;
+
+}
+@media screen and (max-width : 700px ){
+
+	.content-salles .gallery{
+		flex-direction : column ; 
+	}
+	
+	.info-oeuvre-artiste .gallery{
+		flex-direction : column ; 
+	}
+	.content-salles .img-artisteL img{
+		display : grid ; 
+		margin : 0 auto ; 
+		
+	}
+	
+	
+}
+
+.info-oeuvre-artiste .gallery img{
+		max-width: 100%;
+		height: auto;
+}
+.info-oeuvre-artiste {
+	display : flex ;
+	width : 100% ; 
+	box-sizing : border-box ; 
+	flex-direction : row ; 
+}
+
+
+
+
+.fond{
+	
+	background-image: linear-gradient(rgba(250, 250,250, 0.4), rgba(255, 255, 250, 0.4)),
+                  url("../images/musee/fond.jpg");
+}
+
+/* Styling */
+.timeline {
+  margin: 4em auto;
+  position: relative;
+  max-width: 46em;
+}
+.timeline:before {
+  background-color: black;
+  content: "";
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-event {
+  position: relative;
+}
+.timeline-event:hover .timeline-event-icon {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #a83279;
+}
+.timeline-event:hover .timeline-event-thumbnail {
+  -moz-box-shadow: inset 40em 0 0 0 #a83279;
+  -webkit-box-shadow: inset 40em 0 0 0 #a83279;
+  box-shadow: inset 40em 0 0 0 #a83279;
+}
+
+.timeline-event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
+}
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+}
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+.timeline-event-copy strong {
+  font-weight: 700;
+}
+.timeline-event-copy p:not(.timeline-event-thumbnail) {
+  padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline-event-thumbnail {
+  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  -o-transition: box-shadow 0.5s ease-in 0.1s;
+  -webkit-transition: box-shadow 0.5s ease-in;
+  -webkit-transition-delay: 0.1s;
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  -moz-box-shadow: inset 0 0 0 0em #ef795a;
+  -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
+}
+
+.suivant{
+	float : right ; 
+	margin : 20px ; 
+}
+.precedent{
+	float : left ; 
+	margin : 20px ; 
+}
+
+.btn {
+	background-color :  #222224!important ; 
+	color : white ; 
+	font-weight : bold!important ; 
+}
+.btn a{
+	background-color :  transparent!important ; 
+	color : white!important ; 
+	
+}
+.btn a:hover{
+	background-color :  transparent!important ; 
+	color : #222224!important ; 
+	text-decoration : none ; 
+	
+}
+.btn:hover{
+	background-color :  transparent!important ; 
+	color : #222224!important ; 
+	
+}
+
+
+.services-section{
+  background: url(../images/chels/IMG_8024.jpg) repeat fixed 60%;
+  /* background-color: rgba(255,255,255,0.7);  */
+  background-size: cover;
+  padding: 60px 0;
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight : bold ; 
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background: #EACFB8;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  /* cursor: pointer; */
+  width: 300px;
+  /* max-width : 100% ; */
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #222224;
+  color: #222224;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-icon:hover {
+  background: #222224 ;
+  color: #ddd;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc{
+  font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+  .background-salle{
+	background-image : url(../images/musee/IMG_8024.jpg) ; 
+	background-size : cover; 
+}
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+  .background-salle{
+	background-image : url(../images/musee/IMG_8024.jpg) ; 
+	background-size : cover; 
+	
+}
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 90%;
+  }
+  .background-salle{
+	background-image : url(../images/musee/IMG_8024.jpg) ; 
+	background-size : cover; 
+	
+}
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+.background-salle{
+	background-image : url(../images/musee/IMG_8024.jpg) ; 
+	background-size : cover; 
+	
+}
+
+.services-container{
+	margin-top : 110px ; 
+	
+}
